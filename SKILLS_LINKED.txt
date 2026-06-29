@@ -1,0 +1,29 @@
+# Andy-IP-Skill 已链接技能清单
+# 生成时间: Mon Jun 29 22:23:29 CST 2026
+
+## Claude 原生技能 (skills-claude/)
+ai-video-producer
+andy-mp-writing
+andy-perspective
+andy-whitepaper
+batch-image-text-producer
+content-compliance
+content-like-prediction
+ppt-nano-master
+
+## Agents 技能 (skills-agents/)
+github-repo-to-social-video
+story
+story-cover
+story-deslop
+story-import
+story-long-analyze
+story-long-scan
+story-long-write
+story-setup
+story-short-analyze
+story-short-scan
+story-short-write
+
+## 专项技能 (skills-specialized/)
+mbti-article-to-andy-illustration
