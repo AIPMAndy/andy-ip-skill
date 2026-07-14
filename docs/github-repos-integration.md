@@ -64,12 +64,6 @@
     - 功能：一键生成精美排版
     - 状态：✅ 已开源
 
-### MBTI 内容创作
-13. **mbti-ai-prompts** - MBTI × AI 内容创作提示词系统
-    - 地址：https://github.com/AIPMAndy/mbti-ai-prompts
-    - 功能：16种人格深度文案生成
-    - 状态：✅ 已开源
-
 ### 图像/设计资源
 14. **AndyImage** - AI图像生成提示词库
     - 地址：https://github.com/AIPMAndy/AndyImage

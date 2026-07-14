@@ -91,13 +91,8 @@ skills-agents/
 └── ...
 ```
 
-### Skills-Specialized（1个）
-专业领域技能
-
-```
-skills-specialized/
-└── mbti-article-illustration/          # MBTI文章配图
-```
+### Skills-Specialized（0个）
+专业领域技能（待补充）
 
 ## 🌐 生态整合
 
@@ -121,9 +116,6 @@ skills-specialized/
 - [AndyImage](https://github.com/AIPMAndy/AndyImage) - AI图像生成提示词库
 - [andy-liquid](https://github.com/AIPMAndy/andy-liquid) - 液态效果整合
 - [FreeDesign](https://github.com/AIPMAndy/FreeDesign) - 120+精选设计项目
-
-### MBTI内容
-- [mbti-ai-prompts](https://github.com/AIPMAndy/mbti-ai-prompts) - 16种人格内容创作
 
 **完整列表**：查看 [GitHub仓库整合文档](./docs/github-repos-integration.md)
 
@@ -207,9 +199,9 @@ ls skills-specialized/
 
 - Claude Code技能：17个
 - Agents技能：12个
-- 专业技能：1个
-- **总计：30+个技能**
-- **生态仓库：20+个**
+- 专业技能：0个
+- **总计：29个技能**
+- **生态仓库：19个**
 
 ## 📜 许可证
 
