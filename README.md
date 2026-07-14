@@ -99,6 +99,12 @@ Andy IP Skill 工具箱
 ├── 📖 故事/长文创作（1个工具箱）
 │   └── 12个专业写作技能（人物/情节/世界观/对话）
 │
+
+├── 📝 Markdown排版工具链（MDskill系列 ⭐明星工具）
+│   ├── MDskill（专业编辑器，Apple Silicon优化）
+│   ├── MDskill-Web（排版神器，⭐47 stars）
+│   └── obsidian-mdskill（公众号一键发布）
+│
 ├── 🧠 战略与视角（2个技能）
 │   ├── Andy视角分析
 │   └── 白皮书创作
@@ -149,7 +155,28 @@ ls skills-agents/        # 12个Agents技能
 cat docs/github-repos-integration.md
 ```
 
-### 方式3：访问生态工具
+
+### 方式3：使用MDskill系列（推荐用于公众号创作）
+
+```bash
+# 第1步：写作
+# 用 MDskill 编辑器专注写作
+# 或用任意Markdown编辑器
+
+# 第2步：排版
+# 访问 https://mdskill-web.vercel.app
+# 粘贴内容，选择主题，一键生成
+
+# 第3步：发布
+# 用 obsidian-mdskill 转换为公众号格式
+# 直接复制粘贴到微信编辑器
+```
+
+**效果**：排版时间从1小时降到3分钟 ⚡  
+**详细教程**：[MDskill完整工作流](./docs/mdskill-workflow.md)
+
+
+### 方式4：浏览完整生态工具
 
 直接访问 [生态整合文档](./docs/github-repos-integration.md) 查看19个开源仓库。
 
@@ -232,12 +259,23 @@ Claude Code专用技能，调用方式：`/技能名`
 | [PPTskill](https://github.com/AIPMAndy/PPTskill) | AI生成PPTX | 原生可编辑，无需设计技能 |
 | [LivePPT](https://github.com/AIPMAndy/LivePPT) | 网页演示 | 电影级视觉效果 |
 
-### 📝 排版工具
-| 仓库 | 功能 | 亮点 |
-|-----|------|------|
-| [obsidian-mdskill](https://github.com/AIPMAndy/obsidian-mdskill) | MD转公众号HTML | 精美样式，一键复制 |
-| [MDskill](https://github.com/AIPMAndy/MDskill) | Markdown编辑器 | Apple Silicon优化 |
-| [MDskill-Web](https://github.com/AIPMAndy/MDskill-Web) | 文章排版 | 一键生成精美排版 |
+### 📝 Markdown排版工具链（⭐ MDskill系列）
+
+**完整工作流**：写作 → 排版 → 发布，3步搞定公众号文章
+
+| 仓库 | 功能 | 亮点 | Stars |
+|-----|------|------|-------|
+| [MDskill-Web](https://github.com/AIPMAndy/MDskill-Web) | 文章排版神器 | 一键生成12+主题，自动适配移动端 | ⭐ 47 |
+| [MDskill](https://github.com/AIPMAndy/MDskill) | Markdown编辑器 | Apple Silicon原生优化，性能极致 | ⭐ 2 |
+| [obsidian-mdskill](https://github.com/AIPMAndy/obsidian-mdskill) | 公众号发布 | 一键转换为微信格式，无需手动调整 | - |
+
+**📖 完整工作流指南**：查看 [MDskill工作流文档](./docs/mdskill-workflow.md)
+
+**真实效率提升**：
+- 传统方式：写作2小时 + 排版1小时 = 3小时
+- MDskill流程：写作2小时 + 一键排版3分钟 = 2小时3分钟
+- **效率提升33%** ⚡
+
 
 ### 🚀 IP打造系统
 | 仓库 | 功能 | 适用人群 |
