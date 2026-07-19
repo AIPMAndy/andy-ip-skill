@@ -1,393 +1,337 @@
-# Andy IP Skill - 完整IP增长链路体系
+# Andy IP Skill - 个人IP增长工具箱
 
 <div align="center">
 
-### 🚀 不是产品，是经过验证的IP增长方法论 + 59个Skills工具链
+### 🚀 Skills即产品 - 完整的IP增长工具链生态
 
-**IPClaw升级为Andy IP Skill体系**  
-基于Multi-Agent的完整闭环：从定位到商业转化
+**从定位到变现的23个实战工具**  
+基于Claude Skills的智能路由系统
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Skills](https://img.shields.io/badge/Skills-59-blue.svg)](./SKILLS_MAPPING.md)
-[![Chain](https://img.shields.io/badge/Chain-8%20Stages-green.svg)](./IP_CHAIN_ARCHITECTURE.md)
-[![Verified](https://img.shields.io/badge/Verified-7%20Months-purple.svg)](./docs/verification-data.md)
+[![Skills](https://img.shields.io/badge/Skills-23-blue.svg)](./SKILLS_MAPPING.md)
+[![DBS-Inspired](https://img.shields.io/badge/Architecture-DBS--Inspired-green.svg)](./andy-ip-skill.md)
 
-[完整链路](#-完整链路地图) · [Skills清单](#-核心能力模块) · [使用场景](#-典型使用场景) · [快速开始](#-快速开始)
+[工具清单](#-核心工具) · [使用指南](#-使用指南) · [快速开始](#-快速开始) · [设计理念](#-设计理念)
 
 </div>
 
 ---
 
-## 💡 核心理念
+## 💡 什么是 Andy IP Skill？
 
-### IPClaw不是传统软件产品，而是：
+**一个智能路由的IP增长工具箱** - 参考DBS Skill架构，整合Andy实战验证的23个核心工具。
+
+### 核心价值主张
 
 ```
-经过验证的IP增长方法论 
+完整的IP增长方法论 
     + 
-59个经过实战检验的Skills工具链
+23个实战验证的工具
     + 
-完整的8阶段闭环体系
+智能路由系统（三种模式）
     =
-Andy IP Skill完整增长系统
+高效的IP增长工作流
 ```
 
-**类比**：
-- **Zapier早期** = API连接器的聪明组合（不是自己写的API）
-- **Andy IP Skill** = Claude Skills的体系化整合（不是传统代码产品）
+### 产品定位：Skills即产品
 
-**价值**：
-- ✅ 不是"有没有产品"，而是"方法论是否有效"
-- ✅ 不是"代码行数"，而是"能否帮用户实现IP变现"
-- ✅ 不是"技术壁垒"，而是"执行速度+数据积累+创始人IP"
+**类比 Zapier 早期**：
+- Zapier = 聪明的API连接器组合（价值在于整合，而非原创API）
+- Andy IP Skill = 经过筛选和验证的Skills生态（价值在于体系，而非单个工具）
 
----
-
-## 📊 完整链路地图
-
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                    Andy IP 全链路增长系统                          │
-│                 基于Multi-Agent的闭环体系                          │
-└─────────────────────────────────────────────────────────────────┘
-
-01 数据输入          02 洞察定位          03 内容生产
-┌──────────┐      ┌──────────┐       ┌──────────────┐
-│ 💾 Data  │─────▶│ 🎯 Insight│──────▶│ ✍️ Content   │
-│ Input    │      │ Position  │       │ Creation     │
-│ (3)      │      │ (6)       │       │ (24)         │
-└──────────┘      └──────────┘       └──────────────┘
-                                             │
-                                             │
-                                             ▼
-┌──────────┐      ┌──────────┐       ┌──────────────┐
-│ 👥 RaaS  │◀─────│ 💰 Monetiz│◀──────│ 📱 Distribute│
-│ Service  │      │ -ation    │       │ (5)          │
-│ (5)      │      │ (6)       │       └──────────────┘
-└──────────┘      └──────────┘              │
-                                            ▼
-                                     ┌──────────────┐
-                                     │ ✅ Review    │
-                                     │ (5)          │
-                                     └──────────────┘
-                                            │
-                                            ▼
-                                     ┌──────────────┐
-                                     │ 📈 Analytics │
-                                     │ (5)          │
-                                     └──────────────┘
-```
-
-**总计**: 8个阶段 × 59个Skills = 完整IP增长闭环
+**核心差异**：
+- ✅ 不是"工具数量"，而是"能否解决IP增长痛点"
+- ✅ 不是"技术复杂度"，而是"使用效率和成功率"
+- ✅ 不是"从0写代码"，而是"整合最佳实践"
 
 ---
 
-## 🎯 核心价值
+## 🎯 三种使用模式（参考DBS架构）
 
-### 完整的IP增长方法论
-
-✅ **方法论经过实战验证** - 从定位到变现的完整闭环  
-✅ **Skills经过实战检验** - 59个工具覆盖全链路场景  
-✅ **高度自动化** - 显著提升内容生产效率  
-✅ **商业模式清晰** - 社群+商单+RaaS多元变现
-
----
-
-## 🔧 核心能力模块
-
-### 模块1: 数据输入 (3个Skills)
-**目标**: 收集用户信息、背景、目标
-
-| Skill | 功能 | 优先级 |
-|-------|------|--------|
-| `interview-me` | 深度访谈，挖掘核心需求 | ⭐⭐⭐⭐⭐ |
-| `adaptive-socratic-questioning` | 苏格拉底式提问 | ⭐⭐⭐⭐ |
-| `deep-reading-analyst-v2` | 深度分析用户材料 | ⭐⭐⭐ |
-
----
-
-### 模块2: 洞察定位 (6个Skills)
-**目标**: 构建人设、找到差异化定位
-
-| Skill | 功能 | 优先级 |
-|-------|------|--------|
-| `andy-perspective` | Andy视角多维度分析（核心） | ⭐⭐⭐⭐⭐ |
-| `jobs-product` | 乔布斯式产品思维 | ⭐⭐⭐⭐ |
-| `yujun-product` | 俞军产品方法论 | ⭐⭐⭐⭐ |
-| `munger-thinking` | 芒格多元思维模型 | ⭐⭐⭐ |
-| `feynman-skill` | 费曼式简化表达 | ⭐⭐⭐ |
-| `andy-product-skill` | Andy产品技能分析 | ⭐⭐⭐ |
-
----
-
-### 模块3: 内容生产 (24个Skills)
-
-#### 3.1 选题生成 (3个)
-- `ai-topic-generator` ⭐⭐⭐⭐⭐ - AI驱动选题生成
-- `idea-refine` ⭐⭐⭐ - 想法精炼优化
-- `zsxq-topic` ⭐⭐⭐ - 知识星球选题
-
-#### 3.2 文章创作 (7个)
-- `andy-mp-writing` ⭐⭐⭐⭐⭐ - 公众号爆款文章（核心）
-- `wechat-explosive-article-skill` ⭐⭐⭐⭐⭐ - 多篇融合爆款
-- `copywriting` ⭐⭐⭐⭐ - 通用文案创作
-- `andy-whitepaper` ⭐⭐⭐⭐ - 白皮书/深度报告
-- `dan-koe-writer` ⭐⭐⭐ - Dan Koe风格
-- `story-writer` ⭐⭐⭐ - 故事创作
-- `batch-content-generation` ⭐⭐⭐⭐ - 批量内容
-
-#### 3.3 图片内容 (4个)
-- `batch-image-text-producer` ⭐⭐⭐⭐⭐ - 批量图文生产
-- `image-gen` ⭐⭐⭐⭐ - AI图片生成
-- `gpt-image-2` ⭐⭐⭐ - GPT图片v2
-- `chart-image` ⭐⭐⭐ - 图表生成
-
-#### 3.4 视频内容 (5个)
-- `ai-video-producer` ⭐⭐⭐⭐⭐ - AI视频制片人（核心）
-- `react-video-generator` ⭐⭐⭐⭐ - React视频生成
-- `react-video` ⭐⭐⭐ - React视频制作
-- `video-frames` ⭐⭐⭐ - 视频帧处理
-- `duizhaochao-script-generator` ⭐⭐⭐ - 脚本生成
-
-#### 3.5 PPT/演示 (5个)
-- `ppt-nano-master` ⭐⭐⭐⭐⭐ - 12+风格快速PPT（核心）
-- `ppt-master` ⭐⭐⭐⭐ - PPT大师版
-- `lark-slides` ⭐⭐⭐ - 飞书幻灯片
-- `guizang-ppt-skill` ⭐⭐⭐ - 归藏风格PPT
-- `frontend-slides-main` ⭐⭐⭐ - 网页幻灯片
-
----
-
-### 模块4: 多平台分发 (5个Skills)
-| Skill | 功能 | 优先级 |
-|-------|------|--------|
-| `dbs-content-system` | DBS内容系统（核心） | ⭐⭐⭐⭐⭐ |
-| `dbs-content` | DBS内容管理 | ⭐⭐⭐⭐ |
-| `andy-zsxq-content-ops` | 知识星球运营 | ⭐⭐⭐ |
-| `zsxq-group` | 星球群组管理 | ⭐⭐⭐ |
-| `lark-doc` | 飞书文档发布 | ⭐⭐⭐ |
-
----
-
-### 模块5: 内容审核 (5个Skills)
-| Skill | 功能 | 优先级 |
-|-------|------|--------|
-| `content-compliance` | 多平台合规检测（核心） | ⭐⭐⭐⭐⭐ |
-| `content-like-prediction` | 内容点赞预测（核心） | ⭐⭐⭐⭐⭐ |
-| `adversarial-review` | 对抗式审核 | ⭐⭐⭐⭐ |
-| `andy-absolute-rational-critique` | 绝对理性批判 | ⭐⭐⭐⭐ |
-| `story-review` | 故事审核 | ⭐⭐⭐ |
-
----
-
-### 模块6: 复盘优化 (5个Skills)
-| Skill | 功能 | 优先级 |
-|-------|------|--------|
-| `data-analysis` | 数据分析（核心） | ⭐⭐⭐⭐⭐ |
-| `data-storytelling` | 数据故事化 | ⭐⭐⭐⭐ |
-| `video-content-analysis` | 视频内容分析 | ⭐⭐⭐⭐ |
-| `dbs-diagnosis` | DBS诊断系统 | ⭐⭐⭐ |
-| `dbs-report` | DBS报告生成 | ⭐⭐⭐ |
-
----
-
-### 模块7: 商业转化 (6个Skills)
-| Skill | 功能 | 优先级 |
-|-------|------|--------|
-| `bezos-strategy` | 贝佐斯战略思维（核心） | ⭐⭐⭐⭐⭐ |
-| `musk-strategy` | 马斯克战略思维 | ⭐⭐⭐⭐ |
-| `investment-analysis` | 投资分析 | ⭐⭐⭐⭐ |
-| `buffett-invest` | 巴菲特投资思维 | ⭐⭐⭐⭐ |
-| `dalio-principles` | 达里奥原则 | ⭐⭐⭐ |
-| `dbs-decision` | DBS决策系统 | ⭐⭐⭐ |
-
----
-
-### 模块8: RaaS陪跑 (5个Skills)
-| Skill | 功能 | 优先级 |
-|-------|------|--------|
-| `ceo-assistant` | CEO助理服务（核心） | ⭐⭐⭐⭐⭐ |
-| `paseo-loop` | Paseo循环陪跑 | ⭐⭐⭐⭐ |
-| `loop-me` | 持续循环跟进 | ⭐⭐⭐⭐ |
-| `lark-task` | 飞书任务管理 | ⭐⭐⭐ |
-| `lark-okr` | 飞书OKR管理 | ⭐⭐⭐ |
-
----
-
-## 💼 典型使用场景
-
-### 场景1: 新手IP从0到1（完整链路）
+### 模式A：任务前路由 - 智能工具匹配
+**场景**：明确要做什么，但不确定用哪个工具
 
 ```bash
-# Step 1: 数据输入 - 深度了解用户
-/interview-me
+/andy-ip-skill 写公众号
+→ 自动路由到 andy-mp-writing
 
-# Step 2: 洞察定位 - 构建人设
-/andy-perspective
+/andy-ip-skill 合规检查
+→ 自动路由到 content-compliance
+```
 
-# Step 3: 选题生成
-/ai-topic-generator
+### 模式B：任务后导航 - 推荐下一步
+**场景**：完成当前任务，需要建议后续行动
 
-# Step 4: 内容创作（选一个或多个）
-/andy-mp-writing        # 文章
-/ai-video-producer      # 视频
-/ppt-nano-master        # PPT
-/batch-image-text-producer  # 图文
+```bash
+完成文章创作
+→ 建议：合规检查 → 效果预测 → 多平台发布
 
-# Step 5: 内容审核
-/content-compliance
+完成数据分析
+→ 建议：识别高ROI内容 → 复制成功模式
+```
+
+### 模式C：新手教程 - 完整方法论
+**场景**：IP增长新手，需要系统学习
+
+```bash
+/andy-ip-skill 教程
+→ 展示IP增长8阶段完整路径
+→ 每个阶段的核心工具和使用方法
+```
+
+---
+
+## 📊 IP增长8阶段全景图
+
+```
+素材管理 → 内容创作 → 内容审核 → 平台发布
+   ↓          ↓          ↓          ↓
+ (2工具)    (11工具)    (3工具)    (1工具)
+   
+数据分析 → 内容优化 → 产品战略 → 系统支持
+   ↓          ↓          ↓          ↓
+ (2工具)    (循环)     (1工具)    (3工具)
+```
+
+**总计**: 8个阶段 × 23个核心工具 = 完整闭环
+
+---
+
+## 🎯 核心优势
+
+### 1. 实战验证的方法论
+✅ 从定位到变现的完整闭环  
+✅ 每个工具都经过实际IP增长场景检验  
+✅ 智能路由系统，降低工具选择成本
+
+### 2. 高效的工作流设计
+✅ 三种模式适配不同使用场景  
+✅ 单步决策，动态导航（避免僵化流程）  
+✅ 工具松耦合，灵活组合
+
+### 3. 开放的生态系统
+✅ 基于Claude Skills标准接口  
+✅ 支持自定义工具集成  
+✅ MIT开源协议
+
+---
+
+## 🔧 核心工具（23个）
+
+### 📝 内容创作（11个）
+
+| 工具 | 功能 | 优先级 |
+|-----|------|--------|
+| `andy-mp-writing` | Andy风格公众号文章（对抗式生成） | ⭐⭐⭐ |
+| `andy-whitepaper` | 专业白皮书创作+PDF排版 | ⭐⭐⭐ |
+| `copywriting` | 营销文案（AIDA/PAS框架） | ⭐⭐⭐ |
+| `andy-mbti-skill` | MBTI深度分析内容 | ⭐⭐ |
+| `story-long-write` | 通用长文创作 | ⭐⭐ |
+| `story-short-analyze` | 短文分析优化 | ⭐⭐ |
+| `story-cover` | 封面设计 | ⭐ |
+| `story-deslop` | 故事开发 | ⭐ |
+| `story-setup` | 故事设置 | ⭐ |
+| `story-review` | 故事审查 | ⭐⭐ |
+| `handdraw-good-deed-story` | 手绘风格故事 | ⭐ |
+
+### ✅ 内容审核（3个）
+
+| 工具 | 功能 | 优先级 |
+|-----|------|--------|
+| `content-compliance` | 多平台合规检查（小红书/抖音/公众号） | ⭐⭐⭐ |
+| `content-like-prediction` | 内容传播效果预测 | ⭐⭐ |
+| `story-review` | 内容质量全面审查 | ⭐⭐ |
+
+### 📱 平台发布（1个）
+
+| 工具 | 功能 | 优先级 |
+|-----|------|--------|
+| `andy-zsxq-content-ops` | 知识星球内容运营 | ⭐⭐⭐ |
+
+### 📊 数据分析（2个）
+
+| 工具 | 功能 | 优先级 |
+|-----|------|--------|
+| `story-long-analyze` | 长文数据深度分析 | ⭐⭐⭐ |
+| `story-short-analyze` | 短文数据分析 | ⭐⭐ |
+
+### 🎯 产品与战略（1个）
+
+| 工具 | 功能 | 优先级 |
+|-----|------|--------|
+| `andy-product-skill` | 产品方法论整合（俞军/乔布斯/贝佐斯/马斯克） | ⭐⭐⭐ |
+
+### 📥 素材管理（2个）
+
+| 工具 | 功能 | 优先级 |
+|-----|------|--------|
+| `story-import` | 从任意来源导入灵感素材 | ⭐⭐⭐ |
+| `story-long-scan` | 扫描和分析长文选题 | ⭐⭐ |
+
+### 🛠️ 系统工具（3个）
+
+| 工具 | 功能 | 优先级 |
+|-----|------|--------|
+| `andy-memory-loop` | 长期记忆和知识沉淀 | ⭐⭐⭐ |
+| `andy-workflow-closer` | 工作流自动收尾 | ⭐⭐ |
+| `andy-mac-live-debugger` | Mac应用实时调试 | ⭐ |
+
+**详细说明**: 查看 [SKILLS_MAPPING.md](./SKILLS_MAPPING.md)
+
+---
+
+## 💼 使用指南
+
+### 场景1：创作公众号文章（完整流程）
+
+```bash
+# Step 1: 收集素材
+/story-import 
+
+# Step 2: 分析选题
+/story-long-scan
+
+# Step 3: 创作文章
+/andy-mp-writing
+
+# Step 4: 合规检查
+/content-compliance 公众号
+
+# Step 5: 效果预测
 /content-like-prediction
 
-# Step 6: 多平台分发
-/dbs-content-system
+# Step 6: 发布
+发布到公众号 + /andy-zsxq-content-ops（同步到知识星球）
 
 # Step 7: 数据复盘
-/data-analysis
-
-# Step 8: 商业转化
-/bezos-strategy
-
-# Step 9: RaaS陪跑
-/ceo-assistant
+/story-long-analyze
 ```
 
-**预期时间**: 3-6个月完整周期  
-**预期效果**: 从0到月入¥30,000+（参考创始人数据）
-
----
-
-### 场景2: 已有IP需要量产（内容为主）
+### 场景2：白皮书创作
 
 ```bash
-# 快速生产流程
-/ai-topic-generator → /andy-mp-writing → /content-compliance → 发布
+# Step 1: 收集资料
+/story-import
 
-# 或批量生产
-/batch-content-generation
-/batch-image-text-producer
+# Step 2: 战略分析
+/andy-product-skill
+
+# Step 3: 创作白皮书
+/andy-whitepaper
+
+# Step 4: 质量审查
+/story-review
+
+# Step 5: 生成PDF
+系统自动生成专业PDF（3种视觉主题可选）
 ```
 
-**预期效率**: 从8小时/篇 → 30分钟/篇（**16倍提升**）
-
----
-
-### 场景3: 企业IP服务（RaaS模式）
+### 场景3：短内容快速优化
 
 ```bash
-# 深度陪跑流程
-/interview-me → /andy-perspective → /paseo-loop → 
-全链路Skills → /data-analysis → /loop-me
-```
+# Step 1: 分析现有内容
+/story-short-analyze
 
-**服务周期**: 3-6个月深度陪跑  
-**服务定价**: ¥5,000-¥50,000/单
+# Step 2: 优化文案
+/copywriting
+
+# Step 3: 合规检查
+/content-compliance 小红书
+
+# Step 4: 发布
+发布到目标平台
+```
 
 ---
 
 ## 🚀 快速开始
 
-### 方式1: Claude Code直接使用（推荐）
+### 方式1: 使用主入口（推荐）
 
 ```bash
-# 安装到本地Skills目录
+# 调用智能路由系统
+/andy-ip-skill [你的需求]
+
+# 示例
+/andy-ip-skill 写公众号        # 自动路由到 andy-mp-writing
+/andy-ip-skill 合规检查        # 自动路由到 content-compliance
+/andy-ip-skill 教程            # 显示完整IP增长路径
+```
+
+### 方式2: 直接调用具体工具
+
+```bash
+/andy-mp-writing              # 创作公众号文章
+/andy-whitepaper              # 创作白皮书
+/content-compliance 小红书     # 合规检查
+/andy-zsxq-content-ops        # 知识星球运营
+```
+
+### 方式3: 安装到本地
+
+```bash
+# 克隆仓库
 git clone https://github.com/AIPMAndy/andy-ip-skill.git ~/.claude/skills/andy-ip-skill
 
-# 进入目录
+# 查看完整文档
 cd ~/.claude/skills/andy-ip-skill
-
-# 查看完整链路文档
-cat IP_CHAIN_ARCHITECTURE.md
-
-# 查看Skills映射表
-cat SKILLS_MAPPING.md
-
-# 开始使用（在Claude Code中直接调用）
-/interview-me
-/andy-perspective
-/andy-mp-writing
-...
+cat andy-ip-skill.md          # 主入口完整说明
+cat SKILLS_MAPPING.md         # 23个工具详细清单
 ```
 
 ---
 
-### 方式2: 创建Skills软链接
+## 💡 设计理念
 
-```bash
-# 克隆仓库到任意位置
-git clone https://github.com/AIPMAndy/andy-ip-skill.git /your/path/andy-ip-skill
+### 1. Skills即产品
+- 每个Skill都是独立产品，有明确的输入/输出/价值主张
+- 工具之间松耦合，可灵活组合
+- 价值在于整合和路由，而非单个工具的实现
 
-# 创建软链接到Claude Skills目录
-# （注意：本仓库本身就是链接集合，指向真实Skills）
-```
+### 2. 单步决策，动态导航
+- 不预设长流程链，每一步根据实际结果决定下一步
+- 避免"一个工具走到底"的僵化流程
+- 用户始终掌握主动权
 
----
+### 3. 实战验证优先
+- 所有工具都经过Andy本人实战验证
+- 只保留真正产生价值的工具
+- 持续迭代和优化
 
-### 方式3: 浏览完整文档
-
-```bash
-# 查看完整链路架构
-open IP_CHAIN_ARCHITECTURE.md
-
-# 查看59个Skills详细说明
-open SKILLS_MAPPING.md
-
-# 查看生态整合
-open docs/github-repos-integration.md
-```
-
----
-
-## 🎯 项目定位
-
-### ✅ 核心价值主张
-
-#### 1. 完整的方法论体系
-- ✅ 8个阶段完整闭环
-- ✅ 59个Skills覆盖全链路场景
-- ✅ 经过实战验证的IP增长体系
-
-#### 2. 独特的产品定位
-- ✅ 不是传统软件，是"方法论+工具链"
-- ✅ 类似Zapier早期：聪明的整合而非从0写代码
-- ✅ 价值在于"能否帮用户实现IP变现"
-
-#### 3. 开放的生态系统
-- ✅ 基于Claude Skills的可扩展架构
-- ✅ 整合19个开源GitHub仓库
-- ✅ 支持自定义Skills集成
+### 4. 参考DBS架构
+- 借鉴DBS Skill的三模式设计（新手教程、任务前路由、任务后导航）
+- 单入口，智能路由到具体工具
+- 动态推荐下一步行动
 
 ---
 
 ## 📊 项目统计
 
-| 类型 | 数量 | 说明 |
-|-----|------|------|
-| **完整链路阶段** | 8个 | 从数据输入到RaaS陪跑 |
-| **Total Skills** | **59个** | 覆盖全链路场景 |
-| **核心Skills** | 18个 | ⭐⭐⭐⭐⭐评级 |
-| **生态GitHub仓库** | 19个 | 开源可用 |
+| 维度 | 数据 |
+|-----|------|
+| **核心工具** | 23个 |
+| **内容创作工具** | 11个 |
+| **高优先级工具** | 10个（⭐⭐⭐） |
+| **IP增长阶段** | 8个完整闭环 |
+| **开源协议** | MIT License |
 
 ---
 
 ## 🔗 相关文档
 
-- 📘 [完整链路架构](./IP_CHAIN_ARCHITECTURE.md) - 8阶段详细说明
-- 📋 [Skills映射表](./SKILLS_MAPPING.md) - 59个Skills详细清单
-- 🏠 [GitHub生态整合](./docs/github-repos-integration.md) - 19个开源仓库
+- 📘 [主入口完整说明](./andy-ip-skill.md) - 三种模式使用指南
+- 📋 [工具完整映射表](./SKILLS_MAPPING.md) - 23个工具详细说明
+- 📖 [IP增长完整链路](./IP_CHAIN_ARCHITECTURE.md) - 8阶段架构详解
 
 ---
 
-## 💡 核心价值主张
+## 🎯 适合谁使用？
 
-### 给用户的价值
-
-> **不再为找工具而焦虑，不再在碎片化中迷失**  
-> 一个体系，解决IP增长全链路需求
-
-### 给开发者的价值
-
-> **开源的Skills生态，可扩展的工具链**  
-> 基于Claude Code，轻松集成和定制
+- **内容创作者** - 公众号作者、博主、自媒体人
+- **知识IP** - 想通过内容建立个人品牌和影响力
+- **产品经理** - 需要输出专业内容和产品洞察
+- **创业者** - 用IP打造个人护城河，获取商业机会
+- **AI从业者** - 想用AI工具提升创作效率10倍+
 
 ---
 
@@ -414,8 +358,8 @@ MIT License - 详见 [LICENSE](LICENSE) 文件
 Made with ❤️ by [Andy](https://github.com/AIPMAndy)
 
 **最后更新**: 2026-07-18  
-**版本**: v2.0 - 基于完整链路重构
+**版本**: v2.0 - 基于DBS架构重构，聚焦Andy自有工具
 
-[⬆ 回到顶部](#andy-ip-skill---完整ip增长链路体系)
+[⬆ 回到顶部](#andy-ip-skill---个人ip增长工具箱)
 
 </div>

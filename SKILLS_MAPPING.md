@@ -1,519 +1,662 @@
-# Skills完整映射表
+# Andy IP 工具箱 - Skills 完整映射表
 
-> 基于IP增长完整链路的59个Skills详细说明
-
----
-
-## 📋 按链路阶段分类
-
-### 阶段1: 数据输入 (Data Input) - 3个Skills
-
-#### 1.1 interview-me ⭐⭐⭐⭐⭐
-**路径**: `~/.claude/skills/interview-me`  
-**功能**: 深度访谈用户，挖掘核心需求和痛点  
-**调用**: `/interview-me`  
-**输出**: 用户画像文档、核心需求清单  
-**使用场景**: IP打造第一步，了解用户背景、目标、资源
-
-#### 1.2 adaptive-socratic-questioning ⭐⭐⭐⭐
-**路径**: `~/.claude/skills/adaptive-socratic-questioning-1.1.0`  
-**功能**: 苏格拉底式提问，引导用户深度思考  
-**调用**: `/adaptive-socratic-questioning`  
-**输出**: 深度思考报告  
-**使用场景**: 用户对自己认知不清时，通过提问引导
-
-#### 1.3 deep-reading-analyst-v2 ⭐⭐⭐
-**路径**: `~/.claude/skills/deep-reading-analyst-v2`  
-**功能**: 深度分析用户提供的材料（简历、作品、文档）  
-**调用**: `/deep-reading-analyst-v2`  
-**输出**: 材料分析报告  
-**使用场景**: 用户提供了现有材料需要分析
+> 本文档详细说明Andy IP工具箱中所有工具的功能、使用场景和优先级
 
 ---
 
-### 阶段2: 洞察定位 (Positioning) - 6个Skills
+## 📋 工具总览
 
-#### 2.1 andy-perspective ⭐⭐⭐⭐⭐
-**路径**: `~/.claude/skills/andy-perspective`  
-**功能**: Andy视角的多维度分析，核心定位工具  
-**调用**: `/andy-perspective`  
-**输出**: IP定位报告、差异化策略  
-**使用场景**: IP定位核心工具，必用
+**总计：23个核心工具**
 
-#### 2.2 jobs-product ⭐⭐⭐⭐
-**路径**: `~/.claude/skills/jobs-product`  
-**功能**: 乔布斯式产品思维定位  
-**调用**: `/jobs-product`  
-**输出**: 产品化定位策略  
-**使用场景**: 需要产品思维角度的定位
-
-#### 2.3 yujun-product ⭐⭐⭐⭐
-**路径**: `~/.claude/skills/yujun-product`  
-**功能**: 俞军产品方法论定位  
-**调用**: `/yujun-product`  
-**输出**: 用户价值定位  
-**使用场景**: 需要用户价值角度的定位
-
-#### 2.4 munger-thinking ⭐⭐⭐
-**路径**: `~/.claude/skills/munger-thinking`  
-**功能**: 芒格多元思维模型分析  
-**调用**: `/munger-thinking`  
-**输出**: 多学科视角分析  
-**使用场景**: 复杂问题需要多角度思考
-
-#### 2.5 feynman-skill ⭐⭐⭐
-**路径**: `~/.claude/skills/feynman-skill`  
-**功能**: 费曼式简化表达  
-**调用**: `/feynman-skill`  
-**输出**: 简化表达方案  
-**使用场景**: 复杂概念需要通俗化表达
-
-#### 2.6 andy-product-skill ⭐⭐⭐
-**路径**: `~/.claude/skills/andy-product-skill`  
-**功能**: Andy产品技能分析  
-**调用**: `/andy-product-skill`  
-**输出**: 产品能力分析报告  
-**使用场景**: 产品经理IP定位
+按类别分布：
+- 内容创作：11个
+- 内容审核：3个
+- 平台发布：1个
+- 数据分析：2个
+- 产品与战略：1个
+- 素材管理：2个
+- 系统工具：3个
 
 ---
 
-### 阶段3: 内容生产 (Content Creation) - 24个Skills
+## 🎨 内容创作工具（11个）
 
-#### 3.1 选题生成 (3个)
+### 1. andy-mp-writing ⭐⭐⭐
+**功能：** Andy风格公众号文章创作系统 v2.0
 
-##### 3.1.1 ai-topic-generator ⭐⭐⭐⭐⭐
-**路径**: `~/.claude/skills/ai-topic-generator.md`  
-**功能**: AI驱动的选题生成，基于热点和定位  
-**调用**: `/ai-topic-generator`  
-**输出**: 选题清单（10-20个）  
-**使用场景**: 内容创作第一步，选题困难时
+**核心特点：**
+- 对抗式生成（3个子Agent协作）
+- Andy风格DNA（产品思维+技术类比+第一人称）
+- 核心原则：讲自己+深刻利他+少营销
 
-##### 3.1.2 idea-refine ⭐⭐⭐
-**路径**: `~/.claude/skills/idea-refine`  
-**功能**: 想法精炼和优化  
-**调用**: `/idea-refine`  
-**输出**: 优化后的选题  
-**使用场景**: 有初步想法需要精炼
+**适用场景：**
+- AI科技解读文章
+- 个人成长类内容
+- 产品思维分析
+- MBTI深度文章
 
-##### 3.1.3 zsxq-topic ⭐⭐⭐
-**路径**: `~/.claude/skills/zsxq-topic`  
-**功能**: 知识星球选题生成  
-**调用**: `/zsxq-topic`  
-**输出**: 星球选题清单  
-**使用场景**: 知识星球运营
+**输入：**
+- 主题/观点
+- 目标读者
+- 个人故事/经历
+- 字数要求（默认1500-2500字）
 
----
+**输出：**
+- 完整的Andy风格公众号文章
+- 文章质量评估
+- 优化建议
 
-#### 3.2 文章创作 (7个)
+**触发词：** "写公众号"、"公众号文章"、"Andy风格文章"
 
-##### 3.2.1 andy-mp-writing ⭐⭐⭐⭐⭐
-**路径**: `~/.claude/skills/andy-mp-writing`  
-**功能**: 公众号爆款文章生成（核心工具）  
-**调用**: `/andy-mp-writing`  
-**输出**: 1500-2500字公众号文章  
-**使用场景**: 公众号内容创作核心工具
-
-##### 3.2.2 wechat-explosive-article-skill ⭐⭐⭐⭐⭐
-**路径**: `~/.claude/skills/wechat-explosive-article-skill`  
-**功能**: 多篇文章融合生成爆款  
-**调用**: `/wechat-explosive-article-skill`  
-**输出**: 高质量爆款文章  
-**使用场景**: 重要选题需要高质量文章
-
-##### 3.2.3 copywriting ⭐⭐⭐⭐
-**路径**: `~/.claude/skills/copywriting`  
-**功能**: 通用文案创作框架  
-**调用**: `/copywriting`  
-**输出**: 各类文案  
-**使用场景**: 通用文案需求
-
-##### 3.2.4 andy-whitepaper ⭐⭐⭐⭐
-**路径**: `~/.claude/skills/andy-whitepaper`  
-**功能**: 白皮书/深度报告  
-**调用**: `/andy-whitepaper`  
-**输出**: 5000+字深度报告  
-**使用场景**: 深度内容、白皮书
-
-##### 3.2.5 dan-koe-writer ⭐⭐⭐
-**路径**: `~/.claude/skills/dan-koe-writer`  
-**功能**: Dan Koe风格写作  
-**调用**: `/dan-koe-writer`  
-**输出**: Dan Koe风格文章  
-**使用场景**: 需要特定风格
-
-##### 3.2.6 story-writer ⭐⭐⭐
-**路径**: `~/.claude/skills/story-writer`  
-**功能**: 故事创作  
-**调用**: `/story-writer`  
-**输出**: 故事内容  
-**使用场景**: 需要故事化表达
-
-##### 3.2.7 batch-content-generation ⭐⭐⭐⭐
-**路径**: `~/.claude/skills/batch-content-generation.md`  
-**功能**: 批量内容生成  
-**调用**: `/batch-content-generation`  
-**输出**: 批量文章  
-**使用场景**: 需要大量内容
+**优先级：** 高 - IP增长的核心工具
 
 ---
 
-#### 3.3 图片内容 (4个)
+### 2. andy-whitepaper ⭐⭐⭐
+**功能：** 专业白皮书创作系统（整合花叔橙皮书框架 + md2book排版）
 
-##### 3.3.1 batch-image-text-producer ⭐⭐⭐⭐⭐
-**路径**: `~/.claude/skills/batch-image-text-producer`  
-**功能**: 批量图文内容生产  
-**调用**: `/batch-image-text-producer`  
-**输出**: 图文内容包  
-**使用场景**: 小红书、朋友圈批量内容
+**核心特点：**
+- 3种书籍类型（从入门到精通、橙皮书、快速指南）
+- 完整的写作风格DNA（短句、第一人称、数据支撑）
+- 专业PDF排版（3种视觉主题：minimal/academic/playful）
+- 智能分页、自动目录、精美封面
 
-##### 3.3.2 image-gen ⭐⭐⭐⭐
-**路径**: `~/.claude/skills/image-gen`  
-**功能**: AI图片生成  
-**调用**: `/image-gen`  
-**输出**: AI生成图片  
-**使用场景**: 需要配图
+**适用场景：**
+- AI产品白皮书
+- 课程设计文档
+- 商业战略报告
+- 技术方案文档
 
-##### 3.3.3 gpt-image-2 ⭐⭐⭐
-**路径**: `~/.claude/skills/gpt-image-2`  
-**功能**: GPT图片生成v2  
-**调用**: `/gpt-image-2`  
-**输出**: 图片  
-**使用场景**: 图片生成
+**输入：**
+- 白皮书主题
+- 目标读者
+- 核心论点
+- 数据/案例素材
 
-##### 3.3.4 chart-image ⭐⭐⭐
-**路径**: `~/.claude/skills/chart-image`  
-**功能**: 图表生成  
-**调用**: `/chart-image`  
-**输出**: 数据图表  
-**使用场景**: 需要数据可视化
+**输出：**
+- Markdown格式白皮书
+- 精美PDF文档
+- 质量检查报告（12项章节QC + 10项全书QC）
 
----
+**触发词：** "写白皮书"、"创作白皮书"、"做个白皮书"
 
-#### 3.4 视频内容 (5个)
-
-##### 3.4.1 ai-video-producer ⭐⭐⭐⭐⭐
-**路径**: `~/.claude/skills/ai-video-producer`  
-**功能**: AI视频制片人（脚本+策划+画面）  
-**调用**: `/ai-video-producer`  
-**输出**: 完整视频制作方案  
-**使用场景**: 视频创作核心工具
-
-##### 3.4.2 react-video-generator ⭐⭐⭐⭐
-**路径**: `~/.claude/skills/react-video-generator`  
-**功能**: React视频生成器  
-**调用**: `/react-video-generator`  
-**输出**: React视频  
-**使用场景**: 技术类视频
-
-##### 3.4.3 react-video ⭐⭐⭐
-**路径**: `~/.claude/skills/react-video`  
-**功能**: React视频制作  
-**调用**: `/react-video`  
-**输出**: React视频  
-**使用场景**: React视频需求
-
-##### 3.4.4 video-frames ⭐⭐⭐
-**路径**: `~/.claude/skills/video-frames`  
-**功能**: 视频帧处理  
-**调用**: `/video-frames`  
-**输出**: 处理后的视频帧  
-**使用场景**: 视频后期处理
-
-##### 3.4.5 duizhaochao-script-generator ⭐⭐⭐
-**路径**: `~/.claude/skills/duizhaochao-script-generator`  
-**功能**: 对照超脚本生成  
-**调用**: `/duizhaochao-script-generator`  
-**输出**: 脚本  
-**使用场景**: 特定脚本需求
+**优先级：** 高 - 建立专业度的关键工具
 
 ---
 
-#### 3.5 PPT/演示 (5个)
+### 3. story-long-write ⭐⭐
+**功能：** 通用长文创作工具
 
-##### 3.5.1 ppt-nano-master ⭐⭐⭐⭐⭐
-**路径**: `~/.claude/skills/ppt-nano-master`  
-**功能**: 12+风格快速PPT生成  
-**调用**: `/ppt-nano-master`  
-**输出**: 可编辑PPT  
-**使用场景**: PPT制作核心工具
+**核心特点：**
+- 适用于各种类型的长文内容
+- 灵活的写作框架
+- 支持多种风格调整
 
-##### 3.5.2 ppt-master ⭐⭐⭐⭐
-**路径**: `~/.claude/skills/ppt-master`  
-**功能**: PPT大师版（高级定制）  
-**调用**: `/ppt-master`  
-**输出**: 高级PPT  
-**使用场景**: 重要演示PPT
+**适用场景：**
+- 博客文章
+- 深度分析
+- 行业报告
+- 长篇故事
 
-##### 3.5.3 lark-slides ⭐⭐⭐
-**路径**: `~/.claude/skills/lark-slides`  
-**功能**: 飞书幻灯片  
-**调用**: `/lark-slides`  
-**输出**: 飞书幻灯片  
-**使用场景**: 飞书生态
+**输入：**
+- 主题和核心观点
+- 目标读者
+- 风格偏好
 
-##### 3.5.4 guizang-ppt-skill ⭐⭐⭐
-**路径**: `~/.claude/skills/guizang-ppt-skill`  
-**功能**: 归藏风格PPT  
-**调用**: `/guizang-ppt-skill`  
-**输出**: 归藏风格PPT  
-**使用场景**: 需要归藏风格
+**输出：**
+- 完整长文内容（3000字+）
+- 结构化章节
+- 核心观点提炼
 
-##### 3.5.5 frontend-slides-main ⭐⭐⭐
-**路径**: `~/.claude/skills/frontend-slides-main`  
-**功能**: 前端幻灯片  
-**调用**: `/frontend-slides-main`  
-**输出**: 网页幻灯片  
-**使用场景**: 技术演示
+**触发词：** "写长文"、"深度文章"、"长篇内容"
+
+**优先级：** 中 - 通用工具，适用范围广
 
 ---
 
-### 阶段4: 多平台分发 (Distribution) - 5个Skills
+### 4. story-short-analyze ⭐⭐
+**功能：** 短文内容分析和优化
 
-#### 4.1 dbs-content-system ⭐⭐⭐⭐⭐
-**路径**: `~/.claude/skills/dbs-content-system`  
-**功能**: DBS内容系统完整版  
-**调用**: `/dbs-content-system`  
-**输出**: 多平台分发方案  
-**使用场景**: 内容分发核心工具
+**核心特点：**
+- 快速分析短文质量
+- 识别改进点
+- 提供优化建议
 
-#### 4.2 dbs-content ⭐⭐⭐⭐
-**路径**: `~/.claude/skills/dbs-content`  
-**功能**: DBS内容管理  
-**调用**: `/dbs-content`  
-**输出**: 内容管理方案  
-**使用场景**: 内容管理
+**适用场景：**
+- 小红书内容优化
+- 朋友圈文案改进
+- 短视频脚本优化
+- 微博内容调整
 
-#### 4.3 andy-zsxq-content-ops ⭐⭐⭐
-**路径**: `~/.claude/skills/andy-zsxq-content-ops`  
-**功能**: 知识星球内容运营  
-**调用**: `/andy-zsxq-content-ops`  
-**输出**: 星球运营方案  
-**使用场景**: 知识星球运营
+**输入：**
+- 短文内容（500字以内）
+- 目标平台
 
-#### 4.4 zsxq-group ⭐⭐⭐
-**路径**: `~/.claude/skills/zsxq-group`  
-**功能**: 知识星球群组管理  
-**调用**: `/zsxq-group`  
-**输出**: 群组管理方案  
-**使用场景**: 星球群组管理
+**输出：**
+- 内容质量评分
+- 具体改进建议
+- 优化后的版本
 
-#### 4.5 lark-doc ⭐⭐⭐
-**路径**: `~/.claude/skills/lark-doc`  
-**功能**: 飞书文档发布  
-**调用**: `/lark-doc`  
-**输出**: 飞书文档  
-**使用场景**: 飞书生态发布
+**触发词：** "分析短文"、"短内容优化"
+
+**优先级：** 中 - 短内容运营必备
 
 ---
 
-### 阶段5: 内容审核 (Review) - 5个Skills
+### 5. copywriting ⭐⭐⭐
+**功能：** 营销文案创作系统（基于AIDA、PAS、FAB框架）
 
-#### 5.1 content-compliance ⭐⭐⭐⭐⭐
-**路径**: `~/.claude/skills/content-compliance`  
-**功能**: 多平台合规检测（小红书/抖音/公众号）  
-**调用**: `/content-compliance`  
-**输出**: 合规报告+修改建议  
-**使用场景**: 发布前必用
+**核心特点：**
+- 多种经典文案框架
+- 情绪触发器
+- 异议处理
+- A/B测试建议
 
-#### 5.2 content-like-prediction ⭐⭐⭐⭐⭐
-**路径**: `~/.claude/skills/content-like-prediction`  
-**功能**: 内容点赞预测  
-**调用**: `/content-like-prediction`  
-**输出**: 预测分数+优化建议  
-**使用场景**: 重要内容发布前预测
+**适用场景：**
+- 落地页文案
+- 销售邮件
+- 广告文案
+- 产品描述
+- CTA按钮文案
 
-#### 5.3 adversarial-review ⭐⭐⭐⭐
-**路径**: `~/.claude/skills/adversarial-review`  
-**功能**: 对抗式审核  
-**调用**: `/adversarial-review`  
-**输出**: 深度审核报告  
-**使用场景**: 重要内容对抗式审核
+**输入：**
+- 产品/服务描述
+- 目标用户痛点
+- 期望行动
 
-#### 5.4 andy-absolute-rational-critique ⭐⭐⭐⭐
-**路径**: `~/.claude/skills/andy-absolute-rational-critique`  
-**功能**: 绝对理性批判  
-**调用**: `/andy-absolute-rational-critique`  
-**输出**: 理性批判报告  
-**使用场景**: 需要严格审核
+**输出：**
+- 完整营销文案
+- 多个标题选项
+- CTA建议
+- A/B测试方案
 
-#### 5.5 story-review ⭐⭐⭐
-**路径**: `~/.claude/skills/story-review`  
-**功能**: 故事审核  
-**调用**: `/story-review`  
-**输出**: 故事审核报告  
-**使用场景**: 故事类内容审核
+**触发词：** "写文案"、"营销文案"、"广告语"、"落地页文案"
+
+**优先级：** 高 - 商业变现的关键工具
 
 ---
 
-### 阶段6: 复盘优化 (Analytics) - 5个Skills
+### 6. andy-mbti-skill ⭐⭐
+**功能：** MBTI深度分析内容创作
 
-#### 6.1 data-analysis ⭐⭐⭐⭐⭐
-**路径**: `~/.claude/skills/data-analysis`  
-**功能**: 数据分析  
-**调用**: `/data-analysis`  
-**输出**: 数据分析报告  
-**使用场景**: 数据复盘核心工具
+**核心特点：**
+- 基于MBTI理论的深度分析
+- 结合Andy的个人见解
+- 适合心理学/成长类内容
 
-#### 6.2 data-storytelling ⭐⭐⭐⭐
-**路径**: `~/.claude/skills/data-storytelling`  
-**功能**: 数据故事化  
-**调用**: `/data-storytelling`  
-**输出**: 数据故事报告  
-**使用场景**: 数据可视化呈现
+**适用场景：**
+- MBTI类型深度解析
+- 性格分析文章
+- 个人成长建议
+- 团队协作分析
 
-#### 6.3 video-content-analysis ⭐⭐⭐⭐
-**路径**: `~/.claude/skills/video-content-analysis.md`  
-**功能**: 视频内容深度分析  
-**调用**: `/video-content-analysis`  
-**输出**: 视频分析报告  
-**使用场景**: 视频内容复盘
+**输入：**
+- MBTI类型
+- 分析角度
+- 目标读者
 
-#### 6.4 dbs-diagnosis ⭐⭐⭐
-**路径**: `~/.claude/skills/dbs-diagnosis`  
-**功能**: DBS诊断系统  
-**调用**: `/dbs-diagnosis`  
-**输出**: 诊断报告  
-**使用场景**: 系统诊断
+**输出：**
+- MBTI深度分析文章
+- 实用建议
+- 案例分析
 
-#### 6.5 dbs-report ⭐⭐⭐
-**路径**: `~/.claude/skills/dbs-report`  
-**功能**: DBS报告生成  
-**调用**: `/dbs-report`  
-**输出**: 复盘报告  
-**使用场景**: 定期复盘
+**触发词：** "MBTI文章"、"性格分析"、"人格类型"
+
+**优先级：** 中 - 细分领域专用
 
 ---
 
-### 阶段7: 商业转化 (Monetization) - 6个Skills
+### 7-11. story系列工具 ⭐
+**包含：**
+- `story-cover` - 封面设计
+- `story-deslop` - 故事开发
+- `story-setup` - 故事设置
+- `story-review` - 故事审查
+- `handdraw-good-deed-story` - 手绘风格故事
 
-#### 7.1 bezos-strategy ⭐⭐⭐⭐⭐
-**路径**: `~/.claude/skills/bezos-strategy`  
-**功能**: 贝佐斯战略思维  
-**调用**: `/bezos-strategy`  
-**输出**: 战略规划  
-**使用场景**: 商业战略设计
+**功能：** 故事内容创作工具链
 
-#### 7.2 musk-strategy ⭐⭐⭐⭐
-**路径**: `~/.claude/skills/musk-strategy`  
-**功能**: 马斯克战略思维  
-**调用**: `/musk-strategy`  
-**输出**: 战略规划  
-**使用场景**: 创新战略设计
+**适用场景：**
+- 品牌故事
+- 案例故事
+- 视觉内容创作
 
-#### 7.3 investment-analysis ⭐⭐⭐⭐
-**路径**: `~/.claude/skills/investment-analysis`  
-**功能**: 投资分析  
-**调用**: `/investment-analysis`  
-**输出**: 投资分析报告  
-**使用场景**: 商业模式分析
-
-#### 7.4 buffett-invest ⭐⭐⭐⭐
-**路径**: `~/.claude/skills/buffett-invest`  
-**功能**: 巴菲特投资思维  
-**调用**: `/buffett-invest`  
-**输出**: 投资策略  
-**使用场景**: 投资决策
-
-#### 7.5 dalio-principles ⭐⭐⭐
-**路径**: `~/.claude/skills/dalio-principles`  
-**功能**: 达里奥原则  
-**调用**: `/dalio-principles`  
-**输出**: 原则分析  
-**使用场景**: 决策框架
-
-#### 7.6 dbs-decision ⭐⭐⭐
-**路径**: `~/.claude/skills/dbs-decision`  
-**功能**: DBS决策系统  
-**调用**: `/dbs-decision`  
-**输出**: 决策建议  
-**使用场景**: 商业决策
+**优先级：** 低-中 - 特定场景使用
 
 ---
 
-### 阶段8: RaaS陪跑 (RaaS Service) - 5个Skills
+## ✅ 内容审核工具（3个）
 
-#### 8.1 ceo-assistant ⭐⭐⭐⭐⭐
-**路径**: `~/.claude/skills/ceo-assistant.md`  
-**功能**: CEO助理服务  
-**调用**: `/ceo-assistant`  
-**输出**: 助理服务报告  
-**使用场景**: 高端陪跑服务
+### 12. content-compliance ⭐⭐⭐
+**功能：** 多平台内容合规检查系统
 
-#### 8.2 paseo-loop ⭐⭐⭐⭐
-**路径**: `~/.claude/skills/paseo-loop`  
-**功能**: Paseo循环陪跑  
-**调用**: `/paseo-loop`  
-**输出**: 循环陪跑方案  
-**使用场景**: 持续陪跑
+**核心特点：**
+- 支持小红书、抖音、微信公众号三大平台
+- 多维度风险检测
+- 风险评级系统
+- 具体修改建议
 
-#### 8.3 loop-me ⭐⭐⭐⭐
-**路径**: `~/.claude/skills/loop-me`  
-**功能**: 持续循环跟进  
-**调用**: `/loop-me`  
-**输出**: 跟进方案  
-**使用场景**: 持续跟进服务
+**检查维度：**
+1. 政治敏感
+2. 色情低俗
+3. 暴力血腥
+4. 违法犯罪
+5. 虚假信息
+6. 侵权内容
+7. 平台特殊规则
 
-#### 8.4 lark-task ⭐⭐⭐
-**路径**: `~/.claude/skills/lark-task`  
-**功能**: 飞书任务管理  
-**调用**: `/lark-task`  
-**输出**: 任务管理方案  
-**使用场景**: 任务管理
+**风险等级：**
+- 高危（必须修改）
+- 高风险（强烈建议修改）
+- 中风险（建议修改）
+- 低风险（可选修改）
+- 安全（可以发布）
 
-#### 8.5 lark-okr ⭐⭐⭐
-**路径**: `~/.claude/skills/lark-okr`  
-**功能**: 飞书OKR管理  
-**调用**: `/lark-okr`  
-**输出**: OKR管理方案  
-**使用场景**: 目标管理
+**输入：**
+- 待检查内容
+- 目标平台（xiaohongshu/douyin/wechat/all）
 
----
+**输出：**
+- 风险评级
+- 问题内容定位
+- 具体修改建议
+- 平台适配建议
 
-## 📊 统计汇总
+**触发词：** "合规检查"、"会不会违规"、"审核内容"
 
-| 阶段 | Skills数量 | 核心Skills (⭐⭐⭐⭐⭐) |
-|-----|-----------|---------------------|
-| 1. 数据输入 | 3 | interview-me |
-| 2. 洞察定位 | 6 | andy-perspective |
-| 3. 内容生产 | 24 | andy-mp-writing, ai-video-producer, ppt-nano-master, batch-image-text-producer, ai-topic-generator, wechat-explosive-article-skill |
-| 4. 多平台分发 | 5 | dbs-content-system |
-| 5. 内容审核 | 5 | content-compliance, content-like-prediction |
-| 6. 复盘优化 | 5 | data-analysis |
-| 7. 商业转化 | 6 | bezos-strategy |
-| 8. RaaS陪跑 | 5 | ceo-assistant |
-| **总计** | **59** | **18个核心** |
+**优先级：** 高 - 避免封号的必备工具
 
 ---
 
-## 🎯 推荐Skills组合
+### 13. content-like-prediction ⭐⭐
+**功能：** 内容传播效果预测
 
-### 组合1: 完整IP打造（新手从0到1）
+**核心特点：**
+- 基于数据模型预测点赞/分享/评论
+- 识别传播潜力
+- 提供优化方向
+
+**适用场景：**
+- 发布前效果预判
+- 标题/开头优化
+- 选题验证
+
+**输入：**
+- 内容文本
+- 目标平台
+
+**输出：**
+- 传播效果预测（高/中/低）
+- 关键影响因素
+- 优化建议
+
+**触发词：** "预测效果"、"会不会火"、"传播预测"
+
+**优先级：** 中 - 优化传播效果的参考工具
+
+---
+
+### 14. story-review ⭐⭐
+**功能：** 内容质量全面审查
+
+**核心特点：**
+- 多维度质量评估
+- 深度+广度检查
+- 改进建议
+
+**适用场景：**
+- 重要内容发布前审查
+- 内容质量复盘
+- 写作能力提升
+
+**输入：**
+- 待审查内容
+
+**输出：**
+- 质量评分
+- 问题清单
+- 改进建议
+
+**触发词：** "内容审查"、"质量检查"、"Review"
+
+**优先级：** 中 - 质量保障工具
+
+---
+
+## 📱 平台发布工具（1个）
+
+### 15. andy-zsxq-content-ops ⭐⭐⭐
+**功能：** 知识星球内容运营系统
+
+**核心特点：**
+- 研究、起草、发布、编辑知识星球内容
+- 用户互动管理
+- 内容规划
+
+**适用场景：**
+- 知识星球日常运营
+- 付费社群内容发布
+- 用户互动管理
+- 精华内容整理
+
+**输入：**
+- 内容主题
+- 运营目标
+- 用户反馈
+
+**输出：**
+- 格式化的星球内容
+- 发布策略
+- 互动话题建议
+
+**触发词：** "发知识星球"、"星球内容"、"zsxq"
+
+**优先级：** 高 - 付费社群运营核心工具
+
+---
+
+## 📊 数据分析工具（2个）
+
+### 16. story-long-analyze ⭐⭐⭐
+**功能：** 长文内容数据深度分析
+
+**核心特点：**
+- 内容质量分析
+- 传播数据解读
+- 优化方向建议
+
+**适用场景：**
+- 公众号文章复盘
+- 爆款内容分析
+- 写作策略优化
+
+**输入：**
+- 文章内容
+- 传播数据（阅读/点赞/收藏/转发）
+
+**输出：**
+- 内容质量评估
+- 数据表现分析
+- 优化建议
+- 可复制的成功要素
+
+**触发词：** "分析长文"、"文章数据"、"效果分析"
+
+**优先级：** 高 - 数据驱动迭代的核心
+
+---
+
+### 17. story-short-analyze ⭐⭐
+**功能：** 短文内容数据分析
+
+（功能已在内容创作部分#4详细说明）
+
+**优先级：** 中 - 短内容优化工具
+
+---
+
+## 🎯 产品与战略工具（1个）
+
+### 18. andy-product-skill ⭐⭐⭐
+**功能：** 产品方法论整合系统（融合乔布斯、俞军、贝佐斯、马斯克等大师思维框架）
+
+**核心框架：**
+1. 俞军产品方法论（用户价值）
+2. 乔布斯产品哲学（极致体验）
+3. 贝佐斯逆向工作法（从用户倒推）
+4. 马斯克第一性原理（从基本事实推导）
+5. 毛泽东战略思维（矛盾论、实践论）
+6. CEO决策框架（战略选择、资源分配）
+
+**适用场景：**
+- 产品需求评估
+- 战略规划
+- 竞争策略分析
+- 用户价值评估
+- 商业模式设计
+
+**输入：**
+- 决策问题
+- 当前情况
+- 可选方案
+
+**输出：**
+- 多维度分析
+- 框架推荐
+- 决策建议
+- 行动清单
+
+**触发词：** "产品决策"、"战略分析"、"需求评估"、"竞争策略"、"用户价值"
+
+**优先级：** 高 - IP商业化的战略工具
+
+---
+
+## 📥 素材管理工具（2个）
+
+### 19. story-import ⭐⭐⭐
+**功能：** 从任意来源导入灵感素材
+
+**核心特点：**
+- 支持多种格式
+- 自动提取核心观点
+- 智能分类和标签
+- 全文检索
+
+**适用场景：**
+- 日常灵感捕获
+- 文章/视频素材收集
+- 用户反馈整理
+- 竞品内容研究
+
+**输入：**
+- 任意格式的内容（文本/链接/文件）
+
+**输出：**
+- 结构化素材
+- 核心观点提取
+- 自动分类标签
+- 关联话题推荐
+
+**触发词：** "导入素材"、"收集灵感"、"保存内容"
+
+**优先级：** 高 - IP增长的起点工具
+
+---
+
+### 20. story-long-scan ⭐⭐
+**功能：** 扫描和分析长文选题方向
+
+**核心特点：**
+- 热点趋势分析
+- 选题潜力评估
+- 竞品内容扫描
+
+**适用场景：**
+- 每周选题会
+- 季度内容规划
+- 热点追踪
+- 竞品研究
+
+**输入：**
+- 关注领域
+- 时间范围
+
+**输出：**
+- 热门选题列表
+- 选题潜力评分
+- 创作难度评估
+- 差异化建议
+
+**触发词：** "扫描选题"、"选题分析"、"找选题"
+
+**优先级：** 中 - 内容规划辅助工具
+
+---
+
+## 🛠️ 系统工具（3个）
+
+### 21. andy-memory-loop ⭐⭐⭐
+**功能：** 长期记忆和知识沉淀系统
+
+**核心特点：**
+- 跨会话记忆
+- 关键决策记录
+- 个人知识图谱
+- 上下文召回
+
+**适用场景：**
+- 重要决策记录
+- 经验教训沉淀
+- 项目状态跟踪
+- 个人偏好记忆
+
+**输入：**
+- 待记录的信息
+- 重要性标记
+
+**输出：**
+- 结构化记忆存储
+- 相关记忆召回
+- 知识关联推荐
+
+**触发词：** "记忆系统"、"记录洞察"、"保存决策"
+
+**优先级：** 高 - 长期IP积累的基础设施
+
+---
+
+### 22. andy-workflow-closer ⭐⭐
+**功能：** 工作流自动收尾系统
+
+**核心特点：**
+- 自动完成收尾工作
+- 检查清单验证
+- 输出整理
+
+**适用场景：**
+- 复杂任务的最后一步
+- 多工具协作后的整合
+- 质量检查和验证
+
+**输入：**
+- 当前任务状态
+- 预期完成标准
+
+**输出：**
+- 任务完成确认
+- 遗漏项提醒
+- 下一步建议
+
+**触发词：** "继续"、"完成任务"、"收尾"
+
+**优先级：** 中 - 保证任务完整性的工具
+
+---
+
+### 23. andy-mac-live-debugger ⭐
+**功能：** Mac应用实时调试工具
+
+**核心特点：**
+- 检查应用状态
+- 诊断卡死问题
+- 进程管理
+
+**适用场景：**
+- Mac应用卡死
+- 性能问题诊断
+- 进程清理
+
+**输入：**
+- 问题描述
+- 应用名称
+
+**输出：**
+- 问题诊断
+- 解决方案
+- 预防建议
+
+**触发词：** "Mac调试"、"应用卡死"、"进程问题"
+
+**优先级：** 低 - 技术支持工具
+
+---
+
+## 🗺️ 工具使用路径推荐
+
+### 路径1：从0到1创作公众号文章
 ```
-interview-me → andy-perspective → ai-topic-generator → 
-andy-mp-writing → content-compliance → data-analysis → 
-bezos-strategy → ceo-assistant
+story-import（收集素材） 
+→ story-long-scan（分析选题） 
+→ andy-mp-writing（创作文章） 
+→ content-compliance（合规检查） 
+→ content-like-prediction（效果预测） 
+→ 发布到公众号 
+→ andy-zsxq-content-ops（同步到知识星球） 
+→ story-long-analyze（数据复盘）
 ```
 
-### 组合2: 高效内容生产（已有定位）
+### 路径2：专业白皮书创作
 ```
-ai-topic-generator → andy-mp-writing → 
-content-compliance → dbs-content-system
-```
-
-### 组合3: 多平台矩阵（量产模式）
-```
-ai-topic-generator → 
-[andy-mp-writing + ai-video-producer + ppt-nano-master + batch-image-text-producer] →
-content-compliance → dbs-content-system
+story-import（收集资料） 
+→ andy-product-skill（战略分析） 
+→ andy-whitepaper（创作白皮书） 
+→ story-review（质量审查） 
+→ md2book（生成精美PDF） 
+→ 发布和推广
 ```
 
-### 组合4: RaaS陪跑服务（深度服务）
+### 路径3：短内容快速优化
 ```
-interview-me → andy-perspective → paseo-loop → 
-[全链路Skills] → data-analysis → loop-me
+story-short-analyze（分析现有内容） 
+→ copywriting（优化文案） 
+→ content-compliance（合规检查） 
+→ 发布到小红书/朋友圈
+```
+
+### 路径4：数据驱动内容迭代
+```
+story-long-analyze（分析历史数据） 
+→ 识别高ROI内容类型 
+→ andy-product-skill（评估用户价值） 
+→ story-long-scan（找类似选题） 
+→ 复制成功模式创作新内容
 ```
 
 ---
 
-**最后更新**: 2026-07-18  
-**版本**: v2.0
+## 📈 优先级说明
+
+**⭐⭐⭐ 高优先级（10个）**
+- IP增长的核心工具，高频使用，直接产生价值
+
+**⭐⭐ 中优先级（9个）**
+- 特定场景专用，或作为核心工具的补充
+
+**⭐ 低优先级（4个）**
+- 小众场景或技术支持类工具
+
+---
+
+## 🔄 工具更新记录
+
+**v2.0（2026-07）**
+- 重构andy-ip-skill主入口，采用DBS三模式架构
+- 整合23个Andy自有核心工具
+- 移除第三方工具（dbs-*、lark-*系列）
+- 优化工具分类和使用路径
+
+**v1.0（2025-12）**
+- 初始版本，59个工具混合管理
+
+---
+
+## 📝 使用建议
+
+1. **新手**：先看andy-ip-skill主入口的"新手教程"模式，了解完整IP增长路径
+2. **熟练用户**：直接调用具体工具，使用"任务后导航"模式优化工作流
+3. **高级用户**：自定义工具组合，根据自己的IP特点设计专属工作流
+
+---
+
+**持续更新中 | Built with ❤️ by Andy**
