@@ -8,7 +8,7 @@
 内容创作、数据分析、资源聚合全覆盖
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![GitHub Projects](https://img.shields.io/badge/GitHub_Projects-40+-blue.svg)](https://github.com/AIPMAndy)
+[![GitHub Projects](https://img.shields.io/badge/GitHub_Projects-42+-blue.svg)](https://github.com/AIPMAndy)
 [![Skills](https://img.shields.io/badge/Skills-150+-green.svg)](#)
 [![Domains](https://img.shields.io/badge/Domains-5-orange.svg)](#)
 
@@ -132,13 +132,15 @@ Andy IP Skill Stack 是一个**完整的个人IP增长AI工作流生态系统**�
 
 ---
 
-### ✍️ 内容创作层 (15个项目)
+### ✍️ 内容创作层 (17个项目)
 
 | 项目 | 描述 | GitHub | 优先级 |
 |-----|------|--------|--------|
 | **copyflow** | 🚀 内容生产自动化引擎 - 1个选题→10种风格+AI图像+3分钟出稿 | [查看](https://github.com/AIPMAndy/copyflow) | ⭐⭐⭐ |
 | **wechat-explosive-article** | 公众号爆款文章创作 - 多篇融合+人设注入+利他+对抗审核 | [查看](https://github.com/AIPMAndy/wechat-explosive-article-skill) | ⭐⭐⭐ |
 | **PPTskill** | 🎨 AI生成原生可编辑PPTX - 无需设计技能 | [查看](https://github.com/AIPMAndy/PPTskill) | ⭐⭐⭐ |
+| **gaomidu** | 🎯 高密度写作大师 - 创作超高信息密度、可验证的专业内容 | [查看](https://github.com/AIPMAndy/GaoMiDuSkill) | ⭐⭐⭐ |
+| **fanzhuan** | 🎭 反转大师 - 周星驰风格的无厘头喜剧反转创作 | [查看](https://github.com/AIPMAndy/FanZhuanSkill) | ⭐⭐⭐ |
 | **MDskill** | Modern Markdown编辑器 - Apple Silicon优化 | [查看](https://github.com/AIPMAndy/MDskill) | ⭐⭐⭐ |
 | **HTMLskill** | Python-first HTML生成框架 + 设计系统 | [查看](https://github.com/AIPMAndy/HTMLskill) | ⭐⭐ |
 | **AndyImage** | 🎨 全面实用的AI图像生成提示词库 - GPT/MJ/SD/DALL-E/Flux | [查看](https://github.com/AIPMAndy/AndyImage) | ⭐⭐⭐ |

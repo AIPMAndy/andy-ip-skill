@@ -11,6 +11,8 @@
 | andy-mp-writing | `/andy-mp-writing` | 公众号文章（1500-2500字） | Claude | ✅ |
 | andy-whitepaper | `/andy-whitepaper` | 白皮书（5000+字） | Claude | ✅ |
 | andy-perspective | `/andy-perspective` | 多维度分析报告 | Claude | ✅ |
+| gaomidu | `/gaomidu` | 高信息密度内容（可验证、言之有物） | Claude | ✅ |
+| fanzhuan | `/fanzhuan` | 反转喜剧段子/脚本（周星驰风格） | Claude | ✅ |
 
 ### 🎬 视觉内容创作
 
@@ -57,6 +59,8 @@
 1. **andy-mp-writing** - 每周至少2-3次
 2. **content-compliance** - 每次发布前必用
 3. **ppt-nano-master** - 演讲/培训必备
+4. **gaomidu** - 行业报告/专业文章必备
+5. **fanzhuan** - 短视频/公众号段子创作
 
 ### 中频使用（⭐⭐⭐）
 
@@ -82,6 +86,7 @@
 - andy-mp-writing（1500-2500字）
 - andy-whitepaper（5000+字）
 - story-long-write（连载小说）
+- gaomidu（高密度专业文章）
 
 ### 结构化输出
 - andy-perspective（多维度报告）
@@ -93,8 +98,11 @@
 - batch-image-text-producer（图文包）
 - story-cover（封面图）
 
-### 指导性输出
+### 创意输出
+- fanzhuan（反转段子/脚本）
 - ai-video-producer（脚本+制作指南）
+
+### 指导性输出
 - content-like-prediction（评分+建议）
 - story-deslop（优化建议）
 
@@ -143,6 +151,16 @@ andy-perspective → andy-whitepaper ┬→ ppt-nano-master
                                     └→ ai-video-producer
 ```
 
+### 组合5：高质量专业内容（新增）
+```
+gaomidu (数据收集+高密度写作) → content-compliance (合规检查)
+```
+
+### 组合6：搞笑短视频/段子创作（新增）
+```
+fanzhuan (反转段子) → ai-video-producer (视频脚本) → content-compliance (平台合规)
+```
+
 ## 更新日志
 
 ### v1.0.0 (2026-06-29)
@@ -170,6 +188,6 @@ andy-perspective → andy-whitepaper ┬→ ppt-nano-master
 
 ---
 
-**总计**：20+ 技能 | 8个独立技能 + 11个网文子技能 + 若干专项技能
+**总计**：22+ 技能 | 10个独立技能 + 11个网文子技能 + 若干专项技能
 
-最后更新：2026-06-29
+最后更新：2026-07-30
